@@ -1,0 +1,46 @@
+{
+  "name": "nodejs-book-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node app.js",
+    "dev": "nodemon --exec babel-node app.js",
+    "tunnel": "ngrok http 8080",
+    "mapping": "ngrok http 19000",
+    "map-host": "ngrok http 80"
+  },
+  "keywords": [],
+  "author": "vudang",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/node": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cloudinary": "^1.25.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "expo-server-sdk": "^3.5.1",
+    "express": "^4.17.1",
+    "joi": "^17.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "lowdb": "^3.0.0",
+    "mongoose": "^5.9.24",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "nanoid": "^3.1.30",
+    "nodemailer": "^6.4.11",
+    "nodemon": "^2.0.4",
+    "path": "^0.12.7",
+    "sharp": "^0.25.4",
+    "stripe": "^8.90.0",
+    "swagger-jsdoc": "^6.1.0",
+    "swagger-ui-express": "^4.1.6",
+    "uuid": "^8.3.0"
+  },
+  "devDependencies": {
+    "ngrok": "^4.0.1"
+  }
+}
